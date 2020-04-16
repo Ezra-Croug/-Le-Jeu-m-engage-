@@ -1,1 +1,81 @@
-{background: white}
+
+/* MENUE HAUT  MODIF A FAIRE: la fixé pour qu'elle reste en haut quand on scroll*/
+nav ul 
+{
+ 	padding:0;
+    margin: 0px;
+ 	list-style-type:none;
+ 	background-color: #333333;
+ 	margin-left: 0px;
+ 	text-align: center;
+ }
+
+nav li 
+{
+ 	display: inline-block;
+ 	margin-right: 0px;
+ 	padding: 0px;
+ 	width: 100px;
+ 	height: 40px;
+ 	border-right: 1px solid #CCCCCC;
+ 	text-align: center;
+ 	line-height: 40px;
+ }
+
+nav li a 
+{
+	 display: block;   
+	 text-decoration:none;
+	 color: #FFFFFF;
+ }
+
+nav ul li a:hover {
+ background-color: grey;
+ } 
+/*-----------------------------------------------------------------------------*/
+#MenueGauche 
+{
+	height: 950px;
+	width: 150px;
+	background-image: linear-gradient(135deg, transparent 0%, transparent 50%,rgba(159, 159, 159,0.07) 50%, rgba(159, 159, 159,0.07) 77%,transparent 77%, transparent 100%),linear-gradient(90deg, transparent 0%, transparent 91%,rgba(159, 159, 159,0.07) 91%, rgba(159, 159, 159,0.07) 99%,transparent 99%, transparent 100%),linear-gradient(135deg, transparent 0%, transparent 24%,rgba(159, 159, 159,0.07) 24%, rgba(159, 159, 159,0.07) 63%,transparent 63%, transparent 100%),linear-gradient(0deg, transparent 0%, transparent 49%,rgba(159, 159, 159,0.07) 49%, rgba(159, 159, 159,0.07) 63%,transparent 63%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+	position: fixed;
+	padding: 10px;
+	font-size: 30px;
+	text-align: center;
+	border-radius: 5px;
+	border: 120px;
+	top: 40px;
+	border: solid;
+}
+
+ p
+ {
+ 	margin-left: 275px;
+ 	margin-right: 275px;
+ 	font-size: 20px;
+ }
+
+ body
+{
+	margin: 0px;
+	background-image: repeating-linear-gradient(135deg, rgba(19, 19, 19, 0.02) 0px, rgba(19, 19, 19, 0.02) 132px,rgba(233, 233, 233, 0.02) 132px, rgba(233, 233, 233, 0.02) 257px,rgba(87, 87, 87, 0.02) 257px, rgba(87, 87, 87, 0.02) 356px,rgba(139, 139, 139, 0.02) 356px, rgba(139, 139, 139, 0.02) 449px,rgba(107, 107, 107, 0.02) 449px, rgba(107, 107, 107, 0.02) 540px,rgba(141, 141, 141, 0.02) 540px, rgba(141, 141, 141, 0.02) 606px,rgba(197, 197, 197, 0.02) 606px, rgba(197, 197, 197, 0.02) 754px,rgba(79, 79, 79, 0.02) 754px, rgba(79, 79, 79, 0.02) 851px),repeating-linear-gradient(135deg, rgba(152, 152, 152, 0.02) 0px, rgba(152, 152, 152, 0.02) 76px,rgba(91, 91, 91, 0.02) 76px, rgba(91, 91, 91, 0.02) 199px,rgba(68, 68, 68, 0.02) 199px, rgba(68, 68, 68, 0.02) 298px,rgba(216, 216, 216, 0.02) 298px, rgba(216, 216, 216, 0.02) 378px,rgba(254, 254, 254, 0.02) 378px, rgba(254, 254, 254, 0.02) 438px,rgba(79, 79, 79, 0.02) 438px, rgba(79, 79, 79, 0.02) 523px,rgba(47, 47, 47, 0.02) 523px, rgba(47, 47, 47, 0.02) 590px,rgba(241, 241, 241, 0.02) 590px, rgba(241, 241, 241, 0.02) 730px),repeating-linear-gradient(135deg, rgba(39, 39, 39, 0.02) 0px, rgba(39, 39, 39, 0.02) 109px,rgba(131, 131, 131, 0.02) 109px, rgba(131, 131, 131, 0.02) 202px,rgba(18, 18, 18, 0.02) 202px, rgba(18, 18, 18, 0.02) 329px,rgba(217, 217, 217, 0.02) 329px, rgba(217, 217, 217, 0.02) 405px,rgba(93, 93, 93, 0.02) 405px, rgba(93, 93, 93, 0.02) 487px,rgba(194, 194, 194, 0.02) 487px, rgba(194, 194, 194, 0.02) 551px,rgba(202, 202, 202, 0.02) 551px, rgba(202, 202, 202, 0.02) 614px,rgba(224, 224, 224, 0.02) 614px, rgba(224, 224, 224, 0.02) 747px),linear-gradient(90deg, rgb(52, 52, 52),rgb(51, 51, 51));
+}
+h1
+{
+	text-align: center;
+}
+
+span
+{
+	text-align: center;
+}
+
+.CadreCorps
+{
+	border: 50px solid #CCCCCC
+	background-color: grey;
+	height: 10000px;
+	 
+
+
+}
