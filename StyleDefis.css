@@ -1,4 +1,3 @@
-
 /* MENUE HAUT  MODIF A FAIRE: la fixé pour qu'elle reste en haut quand on scroll*/
 nav ul 
 {
@@ -69,61 +68,5 @@ span
 {
 	text-align: center;
 }
+/* ---------------------------------------------------------------------------*/
 
-/*-------------------------------------------------------------------------------
-PERSONALISATION DES BOUTONS menue gauche */
-
-/* COULEUR NATURELL DU BOUTON */
-#MenueGauche a:link
-{
-	background-color: #89B46A;
-}
-
-/* COULEUR DU LIENS VISITER */
-#MenueGauche a:visited 
-{
-  color: none;
-}
-
-/* COMPORTEMENT AU SURVOLE DU BOUTON*/
-#MenueGauche a:hover 
-{ 	
-    border: 2px solid;     
-    background: #626567 ;
-    opacity: 0.8;
-    color: #2F9C1E ;
-}
-
-a:active
-{
-	color: red;
-}
-
-#MenueGauche a 
-{
-  outline: none;
-  text-decoration: none; /* TROUVER POUQUOI QUAND JENLEVE CETTE LIGNE LECRITURE DANS LE BOUTON EST SURLIGNER */
-  padding: 2px 1px 0;
-  border: solid 2px black;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  display: block;
-   box-shadow: 0 10px 20px 0 black;
-}
-
-/*  COULEUR DU TEXTE DANS LE BOUTON */
-#MenueGauche a
-{
-	color: black;
-}
-
-/* COULEUR EN "SURBRILLANCE" QUAND ON SE DEPLACE AVEC TAB */
-a:focus {
- 
-  background: #BAE498;
-}
-
-#MenueGauche a style
-{
-	color:red;
-}
